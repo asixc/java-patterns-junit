@@ -19,4 +19,9 @@ public class RealImage implements Image {
         System.out.println("Showing "+ fileName);
     }
 
+    @Override
+    public RealImage getImage() {
+        return this;
+    }
+
 }

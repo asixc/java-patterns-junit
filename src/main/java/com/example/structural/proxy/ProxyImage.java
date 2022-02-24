@@ -17,4 +17,9 @@ public class ProxyImage implements Image{
         }
         realImage.show();
     }
+
+    @Override
+    public RealImage getImage() {
+        return realImage;
+    }
 }
